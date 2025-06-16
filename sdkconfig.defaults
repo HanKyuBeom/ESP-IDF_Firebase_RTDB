@@ -1,0 +1,9 @@
+# Enable LWIP and HTTP client
+CONFIG_LWIP_IPV6=y
+CONFIG_LWIP_IPV4=y
+
+# Main task stack size
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=8192
+
+# Enable TLS certificates
+CONFIG_MBEDTLS_CERTIFICATE_BUNDLE=y 

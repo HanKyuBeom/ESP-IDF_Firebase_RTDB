@@ -1,0 +1,27 @@
+menu "Firebase CRUD Example Configuration"
+
+    config EXAMPLE_WIFI_SSID
+        string "WiFi SSID"
+        default "for ras-pi"
+        help
+            SSID (network name) for the example to connect to.
+
+    config EXAMPLE_WIFI_PASSWORD
+        string "WiFi Password"
+        default "myhome7808"
+        help
+            WiFi password (WPA or WPA2) for the example to use.
+
+    config EXAMPLE_FIREBASE_HOST
+        string "Firebase Database Host"
+        default "aquasense-beostar-default-rtdb.asia-southeast1.firebasedatabase.app"
+        help
+            Firebase Realtime Database host URL.
+
+    config EXAMPLE_FIREBASE_API_KEY
+        string "Firebase API Key"
+        default "AIzaSyCaQTwrlJFB21eIBp4jXhd5mw9skLegdcM"
+        help
+            Firebase API key for authentication.
+
+endmenu 
